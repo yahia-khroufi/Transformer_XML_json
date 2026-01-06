@@ -26,23 +26,23 @@ L'application permet de convertir facilement des fichiers entre XML et JSON via 
 
 ---
 
-## ⚡ Fonctionnalités Clés
-
-- Conversion **XML → JSON** et **JSON → XML**  
-- Interface moderne avec **JavaFX + FXML + CSS**  
-- Drag-and-drop pour charger facilement les fichiers  
-- Gestion des erreurs et validation des fichiers  
-- Séparation claire des responsabilités grâce au **modèle MVC**  
+    ## ⚡ Fonctionnalités Clés
+    
+    - Conversion **XML → JSON** et **JSON → XML**  
+    - Interface moderne avec **JavaFX**  
+    - Drag-and-drop pour charger facilement les fichiers  
+    - Gestion des erreurs et validation des fichiers  
+    - Séparation claire des responsabilités grâce au **modèle MVC**  
 
 ---
-
-## 🛠️ Technologies Utilisées
-
-| Composant | Technologie |
-|------------|------------|
-| Langage | Java 22 |
-| Interface | JavaFX (FXML) |
-| Style | CSS personnalisé (`modern-theme.css`) |
-| IDE | Eclipse |
-| Bibliothèques | `org.json`, modules JavaFX (`javafx.controls`, `javafx.fxml`) |
+      
+      ## 🛠️ Technologies Utilisées
+      
+      | Composant | Technologie |
+      |------------|------------|
+      | Langage | Java 22 |
+      | Interface | JavaFX (FXML) |
+      | Style | CSS personnalisé (`modern-theme.css`) |
+      | IDE | Eclipse |
+      | Bibliothèques | `org.json`, modules JavaFX (`javafx.controls`, `javafx.fxml`) |
 
