@@ -1,5 +1,5 @@
 
-# 📂 DATAFLOW – XML ↔ JSON
+# 📂 XML ↔ JSON
 
 **DATAFLOW** est une application desktop performante pour la **conversion bidirectionnelle** entre **XML** et **JSON**, offrant simplicité, rapidité et précision pour la manipulation de données structurées.
 
@@ -9,7 +9,7 @@
 
 Regardez **DATAFLOW en action** et découvrez toutes ses fonctionnalités :
 
-[![Regarder la vidéo de démonstration](img.png)](VOTRE_LIEN_VIDEO)  
+[![Regarder la vidéo de démonstration](img.png)](https://youtu.be/nExBx8OxIQQ)  
 *Cliquez sur l’image pour lancer la vidéo.*
 
 ---
