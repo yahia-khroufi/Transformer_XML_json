@@ -46,10 +46,3 @@ L'application permet de convertir facilement des fichiers entre XML et JSON via 
 | IDE | Eclipse |
 | Bibliothèques | `org.json`, modules JavaFX (`javafx.controls`, `javafx.fxml`) |
 
----
-
-## 🚀 Installation et Exécution
-
-1. **Cloner le projet** :  
-```bash
-git clone https://github.com/votre-utilisateur/DATAFLOW.git
