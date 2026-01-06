@@ -13,36 +13,30 @@ Regardez **DATAFLOW en action** et découvrez toutes ses fonctionnalités :
 *Cliquez sur l’image pour lancer la vidéo.*
 
 ---
-
 ## 📋 Présentation
 
-L'application permet de convertir facilement des fichiers entre XML et JSON via deux modes :
-
-- **Mode Local (Sans API)** :  
-  Traitement des données avec des **algorithmes personnalisés** pour une conversion rapide et efficace.  
-
-- **Mode Externe (Avec API)** :  
-  Conversion standardisée via la bibliothèque **`org.json`** pour garantir la compatibilité des fichiers complexes.  
+Application desktop dédiée à la **conversion bidirectionnelle XML ↔ JSON**, offrant deux modes :
+- **Mode Local (sans API)** : conversion rapide via des algorithmes personnalisés.
+- **Mode Externe (avec API)** : conversion fiable grâce à la bibliothèque `org.json`.
 
 ---
 
-    ## ⚡ Fonctionnalités Clés
-    
-    - Conversion **XML → JSON** et **JSON → XML**  
-    - Interface moderne avec **JavaFX**  
-    - Drag-and-drop pour charger facilement les fichiers  
-    - Gestion des erreurs et validation des fichiers  
-    - Séparation claire des responsabilités grâce au **modèle MVC**  
+## ⚡ Fonctionnalités Clés
+
+- Conversion **XML → JSON** et **JSON → XML**
+- Interface moderne basée sur **JavaFX**
+- Chargement des fichiers par **glisser-déposer**
+- Validation des données et gestion des erreurs
+- Architecture **MVC** pour une maintenance optimale
 
 ---
-      
-      ## 🛠️ Technologies Utilisées
-      
-      | Composant | Technologie |
-      |------------|------------|
-      | Langage | Java 22 |
-      | Interface | JavaFX (FXML) |
-      | Style | CSS personnalisé (`modern-theme.css`) |
-      | IDE | Eclipse |
-      | Bibliothèques | `org.json`, modules JavaFX (`javafx.controls`, `javafx.fxml`) |
 
+## 🛠️ Technologies Utilisées
+
+| Composant        | Technologie |
+|------------------|-------------|
+| Langage          | Java 22 |
+| Interface        | JavaFX (FXML) |
+| Style            | CSS personnalisé (`modern-theme.css`) |
+| IDE              | Eclipse |
+| Bibliothèques    | `org.json`, modules JavaFX |
