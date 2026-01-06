@@ -1,0 +1,90 @@
+/* --- VARIABLES & BASE --- */
+.root {
+    -fx-accent: #2563EB;
+}
+
+/* --- ÉDITEUR MODERNE --- */
+.modern-editor {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-radius: 8;
+    -fx-border-color: #E2E8F0;
+    -fx-border-width: 1.5;
+    -fx-font-family: "JetBrains Mono", "Cascadia Code", "Consolas", monospace;
+    -fx-font-size: 13px;
+    -fx-padding: 12;
+    -fx-text-fill: #334155;
+}
+
+.modern-editor:focused {
+    -fx-border-color: #2563EB;
+    -fx-effect: dropshadow(three-pass-box, rgba(37, 99, 235, 0.15), 10, 0, 0, 0);
+}
+
+.output-editor {
+    -fx-background-color: #FBFDFF; /* Teinte bleutée très légère pour la sortie */
+}
+
+/* Enlever les bordures internes de JavaFX */
+.modern-editor .content {
+    -fx-background-color: transparent;
+}
+
+/* --- BOUTONS PRO --- */
+.btn-primary {
+    -fx-background-color: #0F172A; /* Slate 900 */
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 10 22;
+    -fx-background-radius: 6;
+    -fx-cursor: hand;
+    -fx-transition: all 0.2s;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #2563EB; /* Change vers le bleu au survol */
+}
+
+.btn-secondary {
+    -fx-background-color: white;
+    -fx-border-color: #E2E8F0;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-text-fill: #64748B;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 9 18;
+    -fx-cursor: hand;
+}
+
+.btn-secondary:hover {
+    -fx-border-color: #CBD5E1;
+    -fx-text-fill: #1E293B;
+    -fx-background-color: #F8FAFC;
+}
+
+/* --- SEGMENTED CONTROL (SWITCH ENGINE) --- */
+.mode-switcher {
+    -fx-background-color: #F1F5F9;
+    -fx-background-radius: 30;
+    -fx-padding: 4;
+}
+
+.toggle-item-left, .toggle-item-right {
+    -fx-padding: 6 16;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #64748B;
+    -fx-cursor: hand;
+}
+
+.toggle-item-left:selected, .toggle-item-right:selected {
+    -fx-background-color: white;
+    -fx-text-fill: #2563EB;
+    -fx-background-radius: 25;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.06), 3, 0, 0, 1);
+}
+
+/* Masquer le cercle radio button */
+.radio-button .radio { -fx-min-width: 0; -fx-pref-width: 0; -fx-max-width: 0; -fx-padding: 0; -fx-opacity: 0; }
