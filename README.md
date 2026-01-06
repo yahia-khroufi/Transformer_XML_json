@@ -9,7 +9,7 @@
 
 Regardez **DATAFLOW en action** et découvrez toutes ses fonctionnalités :
 
-[![Regarder la vidéo de démonstration](img.jpg)](VOTRE_LIEN_VIDEO)  
+[![Regarder la vidéo de démonstration](img.png)](VOTRE_LIEN_VIDEO)  
 *Cliquez sur l’image pour lancer la vidéo.*
 
 ---
